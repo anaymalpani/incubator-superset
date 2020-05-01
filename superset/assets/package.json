@@ -19,7 +19,9 @@
     "lint-fix": "eslint --fix --ignore-path=.eslintignore --ext .js,.jsx . && tslint -c tslint.json --fix ./{src,spec}/**/*.ts{,x}",
     "cypress": "cypress",
     "cypress-debug": "cypress open --config watchForFileChanges=true",
-    "install-cypress": "npm install cypress@3.1.5"
+    "install-cypress": "npm install cypress@3.1.5",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -96,7 +98,7 @@
     "dompurify": "^1.0.3",
     "geolib": "^2.0.24",
     "immutable": "^3.8.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "json-bigint": "^0.3.0",
     "lodash": "^4.17.15",
     "mapbox-gl": "^0.53.0",
@@ -142,7 +144,8 @@
     "shortid": "^2.2.6",
     "underscore": "^1.8.3",
     "urijs": "^1.18.10",
-    "viewport-mercator-project": "^6.1.1"
+    "viewport-mercator-project": "^6.1.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
@@ -214,5 +217,6 @@
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.14",
     "webpack-sources": "^1.1.0"
-  }
+  },
+  "snyk": true
 }
