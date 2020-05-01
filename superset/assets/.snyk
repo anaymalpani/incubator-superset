@@ -1,0 +1,56 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-preset-chart-nvd3 > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
+    - redux > lodash:
+        patched: '2020-05-01T05:56:55.677Z'
+    - dnd-core > lodash:
+        patched: '2020-05-01T05:56:55.677Z'
+    - react-color > lodash:
+        patched: '2020-05-01T05:56:55.677Z'
+    - react-dnd > lodash:
+        patched: '2020-05-01T05:56:55.677Z'
+    - react-dnd-html5-backend > lodash:
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-plugin-chart-histogram > @vx/responsive > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
+    - dnd-core > redux > lodash:
+        patched: '2020-05-01T05:56:55.677Z'
+    - react-dnd > dnd-core > lodash:
+        patched: '2020-05-01T05:56:55.677Z'
+    - react-color > reactcss > lodash:
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-preset-chart-nvd3 > @data-ui/xy-chart > @vx/text > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
+    - react-dnd > dnd-core > redux > lodash:
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-preset-chart-nvd3 > @data-ui/xy-chart > @vx/text > babel-plugin-lodash > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-preset-chart-nvd3 > @data-ui/xy-chart > @vx/text > @babel/core > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-preset-chart-nvd3 > @data-ui/xy-chart > @vx/text > babel-plugin-lodash > @babel/types > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-preset-chart-nvd3 > @data-ui/xy-chart > @vx/text > @babel/core > @babel/traverse > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-preset-chart-nvd3 > @data-ui/xy-chart > @vx/axis > @vx/text > babel-plugin-lodash > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-preset-chart-nvd3 > @data-ui/xy-chart > @vx/text > babel-plugin-lodash > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-preset-chart-nvd3 > @data-ui/xy-chart > @vx/axis > @vx/text > babel-plugin-lodash > @babel/types > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-preset-chart-nvd3 > @data-ui/xy-chart > @vx/text > @babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-preset-chart-nvd3 > @data-ui/xy-chart > @vx/axis > @vx/text > babel-plugin-lodash > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-preset-chart-nvd3 > @data-ui/xy-chart > @vx/text > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-preset-chart-nvd3 > @data-ui/xy-chart > @vx/text > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
+    - '@superset-ui/legacy-preset-chart-nvd3 > @data-ui/xy-chart > @vx/text > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-05-01T05:56:55.677Z'
